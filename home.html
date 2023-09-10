@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230910213539">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="home.html" class="menu__link _active" data-target="/safari/home.html">Home</a></li>
+							<li class="menu__item"><a href="catalog-clothes.html" class="menu__link" data-target="/safari/catalog-clothes.html">Clothes</a></li>
+							<li class="menu__item"><a href="catalog-shoes.html" class="menu__link" data-target="/safari/catalog-shoes.html">Shoes</a></li>
+							<li class="menu__item"><a href="catalog-accessories.html" class="menu__link" data-target="/safari/catalog-accessories.html">Accessories</a></li>
+						</ul>
+					</nav>
+				</div>
+				<a href="home.html" class="header__logo"><img src="img/header/logo.svg" alt="Logo"></a>
+				<div class="header__actions actions-header">
+					<form data-da=".menu__body,650,0" action="#" class="actions-header__search search-header">
+						<input autocomplete="off" type="text" name="form[]" data-required data-error="Error" placeholder="Search..." class="search-header__input">
+						<button type="submit" class="search-header__button _icon-search"></button>
+					</form>
+					<a href="account-information.html" class="actions-header__item _icon-user" data-target="/safari/account-information.html"></a>
+					<a href="account-checkout.html" class="actions-header__item _icon-cart" data-target="/safari/account-checkout.html"></a>
+					<a href="account-favorites.html" class="actions-header__item _icon-favorite" data-target="/safari/account-favorites.html"></a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__hero hero">
+				<div class="hero__container_content">
+					<div class="hero__slider swiper">
+						<div class="hero__wrapper swiper-wrapper">
+							<div class="hero__slide swiper-slide">
+								<div class="hero__image">
+									<picture><source srcset="img/hero/image-hero.webp" type="image/webp"><img src="img/hero/image-hero.png" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="hero__slide swiper-slide">
+								<div class="hero__image">
+									<picture><source srcset="img/hero/image-hero2.webp" type="image/webp"><img src="img/hero/image-hero2.png" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="hero__slide swiper-slide">
+								<div class="hero__image">
+									<picture><source srcset="img/hero/image-hero.webp" type="image/webp"><img src="img/hero/image-hero.png" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="hero__slide swiper-slide">
+								<div class="hero__image">
+									<picture><source srcset="img/hero/image-hero2.webp" type="image/webp"><img src="img/hero/image-hero2.png" alt="Image"></picture>
+								</div>
+							</div>
+						</div>
+						<div class="hero__logo">
+							<picture><source srcset="img/hero/logo-hero.webp" type="image/webp"><img src="img/hero/logo-hero.png" alt="Logo"></picture>
+						</div>
+						<div class="hero__footer">
+							<div class="hero__pagination"></div>
+							<div class="hero__text">
+								Explore our collection
+							</div>
+							<button data-goto=".main-catalog" data-goto-header type="button" class="hero__scroll _icon-scroll-down"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="page__main-catalog main-catalog">
+				<div class="main-catalog__header">
+					<h1 class="main-catalog__title"><span>Shop your style</span></h1>
+					<div class="main-catalog__text">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae gravida cursus adipiscing
+							viverra at tortor, egestas odio parturient. Morbi ut lorem in erat. Et et molestie diam diam
+							ultricies.
+							Scelerisque duis diam ac cras dictum adipiscing. Venenatis at sit proin ut vitae adipiscing id
+							facilisis.
+						</p>
+					</div>
+				</div>
+				<div class="main-catalog__container_content">
+					<ul class="main-catalog__items items-catalog">
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/01.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Multicolored armless top</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/02.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Grey bee wrist-watch Lorem ipsum dolor sit amet consectetur.</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/03.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Mini skirt</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/04.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Red lightweight gown</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/05.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Blue botton-down gown</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/06.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Moon and star neckpiece</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/07.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/07.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Tambourine Crossbody Bag</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/08.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/08.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Katy Perry Killer Queen EDP</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/09.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/09.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">High heels ladies shoes</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/10.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Nerdy oval glasses</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/11.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Diamond ladies ring</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/12.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/12.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Ladies bush pants</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/13.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/13.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Guilhermina Embellished Slides</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/14.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/14.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Superga Plaid Sneakers</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/15.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/15.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Checked ladies trouser</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+						<li class="items-catalog__item item-catalog">
+							<div class="item-catalog__main">
+								<a href="#" class="item-catalog__image-ibg">
+									<picture><source data-srcset="img/catalog/16.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/16.jpg" alt="Product"></picture>
+								</a>
+								<div class="item-catalog__actions">
+									<button type="button" class="item-catalog__favorite _icon-favorite"></button>
+									<button type="button" class="item-catalog__add-to-cart _icon-cart">ADD TO CART</button>
+								</div>
+							</div>
+							<div class="item-catalog__footer">
+								<h3 class="item-catalog__title"><a href="#">Beanie winter fleece</a></h3>
+								<div class="item-catalog__price"><span>₦</span>10,000</div>
+							</div>
+						</li>
+					</ul>
+					<div class="main-catalog__pagging">
+						<div class="pagging">
+							<a href="" class="pagging__arrow pagging__arrow_prew _icon-arrow"></a>
+							<ul class="pagging__list">
+								<li>
+									<a href="" class="pagging__item _active">1</a>
+								</li>
+								<li>
+									<a href="" class="pagging__item">2</a>
+								</li>
+								<li>
+									<a href="" class="pagging__item">3</a>
+								</li>
+							</ul>
+							<a href="" class="pagging__arrow _icon-arrow"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container_content">
+				<a href="#" class="footer__logo">
+					<img src="img/header/logo.svg" alt="Logo">
+				</a>
+				<div class="footer__body body-footer">
+					<nav class="body-footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">About Us</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Contact</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Terms & Conditions</a>
+							</li>
+						</ul>
+					</nav>
+					<ul class="body-footer__social social-footer">
+						<li class="social-footer__item">
+							<a href="#" class="social-footer__link _icon-facebook">Facebook</a>
+						</li>
+						<li class="social-footer__item">
+							<a href="#" class="social-footer__link _icon-twitter">Twitter</a>
+						</li>
+						<li class="social-footer__item">
+							<a href="#" class="social-footer__link _icon-instagram">Instagram</a>
+						</li>
+					</ul>
+					<div class="body-footer__subscribe subscribe-footer">
+						<div class="subscribe-footer__label">Subscribe to our letter</div>
+						<form action="#" class="subscribe-footer__form">
+							<input autocomplete="off" data-required="email" type="email" name="form[]" data-error="Error" placeholder="Email Address" class="subscribe-footer__input">
+							<button type="submit" class="subscribe-footer__button">OK</button>
+						</form>
+					</div>
+				</div>
+				<ul class="footer__contacts contacts-footer">
+					<li class="contacts-footer__item">
+						<a href="#" class="contacts-footer__link">497 Evergreen Rd. Roseville, CA 95673</a>
+					</li>
+					<li class="contacts-footer__item">
+						<a href="tel:+44345678903" class="contacts-footer__link">+44 345 678 903</a>
+					</li>
+					<li class="contacts-footer__item">
+						<a href="mailto:adobexd@mail.com" class="contacts-footer__link">adobexd@mail.com</a>
+					</li>
+				</ul>
+				<button type="button" data-goto=".wrapper" class="footer__button-up _icon-arrow"></button>
+			</div>
+		</footer>
+	</div>
+	<!-- Стилі для body -->
+	<style>
+		.lock body {
+			overflow: hidden;
+			touch-action: none;
+			overscroll-behavior: none;
+		}
+
+		.loading body {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.loaded body {
+			transition: opacity 0.5s ease 0s;
+			opacity: 1;
+			visibility: visible;
+		}
+	</style>
+	<div id="fls-preloader">
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+				border: 0px;
+			}
+
+			*,
+			*:before,
+			*:after {
+				box-sizing: border-box;
+			}
+
+			html {
+				overflow: hidden;
+				touch-action: none;
+				overscroll-behavior: none;
+			}
+
+			.fls-preloader {
+				pointer-events: none;
+				z-index: -1;
+				position: fixed;
+				width: 15rem;
+				height: 15rem;
+				border-radius: 50%;
+				top: calc(50% - 7.5rem);
+				left: calc(50% - 7.5rem);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #ed165f;
+			}
+
+			.fls-preloader__body {
+				padding: 0.93rem;
+				max-width: 31.25rem;
+				display: flex;
+				flex-direction: column;
+			}
+
+			.fls-preloader__counter {
+				font-size: 5rem;
+				color: #fff;
+			}
+
+			.fls-preloader__line {}
+
+			.fls-preloader__line span {
+				display: inline-block;
+				transition: width 0.2s ease;
+				height: 0.8rem;
+				background-color: #fff;
+			}
+		</style>
+
+		<script>
+			function preloader() {
+				const preloaderImages = document.querySelector('[data-preloader]') ? document.querySelectorAll('[data-preloader] img') : document.querySelectorAll('img');
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				if (preloaderImages.length) {
+					const preloaderTemplate = `
+					<div class="fls-preloader">
+						<div class="fls-preloader__body">
+							<div class="fls-preloader__counter">0%</div>
+							<div class="fls-preloader__line"><span></span></div>
+						</div>
+					</div>`;
+					document.querySelector('html').insertAdjacentHTML("beforeend", preloaderTemplate);
+
+					const
+						preloader = document.querySelector('.fls-preloader'),
+						showPecentLoad = document.querySelector('.fls-preloader__counter'),
+						showLineLoad = document.querySelector('.fls-preloader__line span'),
+						htmlDocument = document.documentElement;
+
+					let imagesLoadedCount = counter = progress = 0;
+
+					htmlDocument.classList.add('loading');
+					htmlDocument.classList.add('lock');
+
+					preloaderImages.forEach(preloaderImage => {
+						const imgClone = document.createElement('img');
+						if (imgClone) {
+							imgClone.onload = imageLoaded;
+							imgClone.onerror = imageLoaded;
+							preloaderImage.dataset.src ? imgClone.src = preloaderImage.dataset.src : imgClone.src = preloaderImage.src;
+						}
+					});
+
+					function setValueProgress(progress) {
+						showPecentLoad ? showPecentLoad.innerText = `${progress}%` : null;
+						showLineLoad ? showLineLoad.style.width = `${progress}%` : null;
+					}
+					showPecentLoad ? setValueProgress(progress) : null;
+
+					function imageLoaded() {
+						imagesLoadedCount++;
+						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
+						const intervalId = setInterval(() => {
+							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
+							counter >= 100 ? addLoadedClass() : null;
+						}, 10);
+					}
+
+					function addLoadedClass() {
+						htmlDocument.classList.add('loaded');
+						htmlDocument.classList.remove('lock');
+						htmlDocument.classList.remove('loading');
+						setInterval(() => {
+							preloader.remove();
+							preloaderContainer.remove();
+						}, 500);
+					}
+				} else {
+					preloaderContainer.remove();
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<script src="js/app.min.js?_v=20230910213539"></script>
+</body>
+
+</html>

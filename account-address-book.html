@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Account Address Book</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230910213539">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="home.html" class="menu__link _active" data-target="/safari/home.html">Home</a></li>
+							<li class="menu__item"><a href="catalog-clothes.html" class="menu__link" data-target="/safari/catalog-clothes.html">Clothes</a></li>
+							<li class="menu__item"><a href="catalog-shoes.html" class="menu__link" data-target="/safari/catalog-shoes.html">Shoes</a></li>
+							<li class="menu__item"><a href="catalog-accessories.html" class="menu__link" data-target="/safari/catalog-accessories.html">Accessories</a></li>
+						</ul>
+					</nav>
+				</div>
+				<a href="home.html" class="header__logo"><img src="img/header/logo.svg" alt="Logo"></a>
+				<div class="header__actions actions-header">
+					<form data-da=".menu__body,650,0" action="#" class="actions-header__search search-header">
+						<input autocomplete="off" type="text" name="form[]" data-required data-error="Error" placeholder="Search..." class="search-header__input">
+						<button type="submit" class="search-header__button _icon-search"></button>
+					</form>
+					<a href="account-information.html" class="actions-header__item _icon-user" data-target="/safari/account-information.html"></a>
+					<a href="account-checkout.html" class="actions-header__item _icon-cart" data-target="/safari/account-checkout.html"></a>
+					<a href="account-favorites.html" class="actions-header__item _icon-favorite" data-target="/safari/account-favorites.html"></a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__account account">
+				<div class="account__container_content">
+					<div class="account__content account__content_menu">
+						<aside class="account__menu menu-account">
+							<h2 class="menu-account__title">ACCOUNT DASHBOARD</h2>
+							<ul class="menu-account__list">
+								<li class="menu-account__item" data-target="/safari/account-information.html">
+									<a href="account-information.html" class="menu-account__link _icon-user2">Account Information</a>
+								</li>
+								<li class="menu-account__item" data-target="/safari/account-address-book.html">
+									<a href="account-address-book.html" class="menu-account__link _icon-address">Address Book</a>
+								</li>
+								<li class="menu-account__item" data-target="/safari/account-my-orders.html">
+									<a href="account-my-orders.html" class="menu-account__link _icon-orders">My Orders</a>
+								</li>
+								<li class="menu-account__item" data-target="/safari/account-favorites.html">
+									<a href="account-favorites.html" class="menu-account__link _icon-favorite">My Favorites</a>
+								</li>
+							</ul>
+							<button type="button" class="menu-account__sign-out _icon-out">SIGN OUT</button>
+						</aside>
+						<div class="account__information">
+							<h1 class="account__title">Address Book</h1>
+							<div class="account__address-book address-book">
+								<ul class="address-book__list">
+									<li class="address-book__item">
+										<div class="address-book__content">
+											<h3 class="address-book__title">Default Shipping Address</h3>
+											<div class="address-book__body">
+												<p>Ayokunle Oriolowo</p>
+												<p>No 4 Barnawa Close, Barnawa, Kaduna</p>
+												<p>Kaduna, Kaduna</p>
+												<p>Nigeria</p>
+												<p>+234 708 568 5878</p>
+											</div>
+										</div>
+										<div class="address-book__actions">
+											<a href="#" class="address-book__link address-book__link_edit">Edit</a>
+											<a href="#" class="address-book__link address-book__link_delete">Delete</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<button type="button" class="account__button button">ADD NEW ADDRESS</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container_content">
+				<a href="#" class="footer__logo">
+					<img src="img/header/logo.svg" alt="Logo">
+				</a>
+				<div class="footer__body body-footer">
+					<nav class="body-footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">About Us</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Contact</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Terms & Conditions</a>
+							</li>
+						</ul>
+					</nav>
+					<ul class="body-footer__social social-footer">
+						<li class="social-footer__item">
+							<a href="#" class="social-footer__link _icon-facebook">Facebook</a>
+						</li>
+						<li class="social-footer__item">
+							<a href="#" class="social-footer__link _icon-twitter">Twitter</a>
+						</li>
+						<li class="social-footer__item">
+							<a href="#" class="social-footer__link _icon-instagram">Instagram</a>
+						</li>
+					</ul>
+					<div class="body-footer__subscribe subscribe-footer">
+						<div class="subscribe-footer__label">Subscribe to our letter</div>
+						<form action="#" class="subscribe-footer__form">
+							<input autocomplete="off" data-required="email" type="email" name="form[]" data-error="Error" placeholder="Email Address" class="subscribe-footer__input">
+							<button type="submit" class="subscribe-footer__button">OK</button>
+						</form>
+					</div>
+				</div>
+				<ul class="footer__contacts contacts-footer">
+					<li class="contacts-footer__item">
+						<a href="#" class="contacts-footer__link">497 Evergreen Rd. Roseville, CA 95673</a>
+					</li>
+					<li class="contacts-footer__item">
+						<a href="tel:+44345678903" class="contacts-footer__link">+44 345 678 903</a>
+					</li>
+					<li class="contacts-footer__item">
+						<a href="mailto:adobexd@mail.com" class="contacts-footer__link">adobexd@mail.com</a>
+					</li>
+				</ul>
+				<button type="button" data-goto=".wrapper" class="footer__button-up _icon-arrow"></button>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230910213539"></script>
+</body>
+
+</html>
